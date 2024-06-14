@@ -1,0 +1,18 @@
+:root {
+    --backgroundColor: #c2c7a8;
+    --textureColor: #d1d280;
+    --textColor: #242222;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header,
+main {
+    padding-left: 8vw;
+    padding-right: 8vw;
+}

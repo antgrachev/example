@@ -1,0 +1,38 @@
+header {
+    background-color: var(--backgroundColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    align-items: center;
+
+    &>img {
+        object-fit: contain;
+        overflow: visible;
+        width: 5em;
+    }
+
+}
+
+.menu-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    align-items: center;
+
+    list-style: none;
+
+    &>li>a {
+        color: var(--textColor);
+        text-decoration: none;
+    }
+
+    &>li>a:hover {
+        color: blueviolet;
+    }
+}
